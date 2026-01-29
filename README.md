@@ -2,13 +2,13 @@
 
 只需使用 **三重反引號**（```）括住 Mermaid 語句，即可讓文件呈現圖表、具備視覺化效果。
 
-````markdown
+```markdown
 ```mermaid
 
     %%Mermaid code
 
 ```
-````
+```
 
 ### 繪製流程圖
 
@@ -315,7 +315,6 @@ Class08 <--> C2: Cool label
 ```
 
 ```mermaid
-
 flowchart LR
 
 A{藍芽連線}
@@ -345,7 +344,6 @@ E --> |Yes|B
 E --> |No|F
 F --> |至設定畫面頁|D
 F --> F
-
 ```
 
 ```mermaid
